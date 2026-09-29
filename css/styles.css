@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#explore{
+    left: 10vh;
+    top: 10vh;
+}
+
+#pop{
+    left: 30vh;
+    top: 40vh;
+}
+
+#random{
+    left: 50vh;
+    top: 70vh;
+}
+
+.hanging{
+    position:absolute;
+}
+
+#home{
+    background-image: url("../images/home.jpg");
+    width: 100%;
+    min-height: 100vh;
+}
