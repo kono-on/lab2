@@ -1,3 +1,5 @@
+/* button styles */
+
 .content {
     display: flex;
     flex-direction: column;
@@ -9,27 +11,55 @@
     color: #ffffff;
 }
 
-#explore{
-    left: 10vh;
+/* individual button arrangements */
+
+#info{
+    left: 10vw;
     top: 10vh;
 }
 
 #pop{
-    left: 30vh;
-    top: 40vh;
+    left: 45vw;
+    bottom: 10vh;
 }
 
 #random{
-    left: 50vh;
-    top: 70vh;
+    right: 10vw;
+    bottom: 10vh;
+}
+
+#homeButton{
+    left: 10vw;
+    bottom: 10vh;
 }
 
 .hanging{
     position:absolute;
 }
 
-#home{
-    background-image: url("../images/home.jpg");
+/* Variety of background images*/
+
+body{
     width: 100%;
     min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/home.jpg");
+}
+
+body.home{
+    background-image: url("../images/home.jpg");
+}
+
+body.italy{
+    background-image: url("../images/italy.jpg");
+}
+
+body.slovenia{
+    background-image: url("../images/slovenia.jpg");
+}
+
+body.switzerland{
+    background-image: url("../images/switzerland.jpg");
 }
